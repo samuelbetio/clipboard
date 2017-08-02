@@ -1,16 +1,16 @@
-[![Build Status](https://travis-ci.org/atotto/clipboard.svg?branch=master)](https://travis-ci.org/atotto/clipboard) [![Build Status](https://drone.io/github.com/atotto/clipboard/status.png)](https://drone.io/github.com/atotto/clipboard/latest) 
+[![Build Status](https://travis-ci.org/samuelbetio/clipboard.svg?branch=master)](https://travis-ci.org/samuelbetio/clipboard) [![Build Status](https://drone.io/github.com/samuelbetio/clipboard/status.png)](https://drone.io/github.com/samuelbetio/clipboard/latest) 
 
-[![GoDoc](https://godoc.org/github.com/atotto/clipboard?status.svg)](http://godoc.org/github.com/atotto/clipboard)
+[![GoDoc](https://godoc.org/github.com/samuelbetio/clipboard?status.svg)](http://godoc.org/github.com/samuelbetio/clipboard)
 
 # Clipboard for Go
 
 Provide copying and pasting to the Clipboard for Go.
 
-Download shell commands at https://drone.io/github.com/atotto/clipboard/files
+Download shell commands at https://drone.io/github.com/samuelbetio/clipboard/files
 
 Build:
 
-    $ go get github.com/atotto/clipboard
+    $ go get github.com/samuelbetio/clipboard
 
 Platforms:
 
@@ -21,7 +21,7 @@ Platforms:
 
 Document: 
 
-* http://godoc.org/github.com/atotto/clipboard
+* http://godoc.org/github.com/samuelbetio/clipboard
 
 Notes:
 
@@ -36,13 +36,13 @@ TODO:
 
 paste shell command:
 
-    $ go get github.com/atotto/clipboard/cmd/gopaste
+    $ go get github.com/samuelbetio/clipboard/cmd/gopaste
     $ # example:
     $ gopaste > document.txt
 
 copy shell command:
 
-    $ go get github.com/atotto/clipboard/cmd/gocopy
+    $ go get github.com/samuelbetio/clipboard/cmd/gocopy
     $ # example:
     $ cat document.txt | gocopy
 
